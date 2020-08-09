@@ -1,0 +1,6 @@
+module Pods_secondServings_secondServingsTests {
+  umbrella header "Pods-secondServings-secondServingsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
