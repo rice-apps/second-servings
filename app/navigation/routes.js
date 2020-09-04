@@ -4,5 +4,5 @@ export default Object.freeze({
   LOGIN: "Login",
   MESSAGES: "Messages",
   REGISTER: "Register",
-  FOOD: "Food"
+  FOOD: "Listings"
 });

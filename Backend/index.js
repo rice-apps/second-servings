@@ -9,6 +9,7 @@ const morgan = require("morgan");
 // User imports
 const users = require("./routes/users");
 const auth = require("./routes/auth");
+// const listings = require("./routes/listings");
 const mongoose = require("mongoose");
 
 const app = express();
@@ -35,6 +36,7 @@ mongoose
 // Routes
 app.use("/api/users", users);
 app.use("/api/auth", auth);
+// app.use("/api/listings", listings);
 
 // DB Work...
 // dbDebugger("Connected to database...");
